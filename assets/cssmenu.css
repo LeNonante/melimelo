@@ -1,0 +1,109 @@
+@font-face {
+	font-family: "Segoe";
+	src: url('segoepr.ttf');
+}
+
+@font-face {
+	font-family: "SegoeG";
+	src: url('segoeprb.ttf');
+}
+
+
+h1 {
+	font-size: 50px; 
+	font-family: "SegoeG";
+  	text-decoration:underline;
+  	text-align : center
+}
+h2 {
+   font-style:italic;
+   text-align:left;
+   text-decoration:underline;
+   color : pink;
+}
+
+h3 {
+  font-style:italic
+}
+
+ body {	
+ 	font-family: "Segoe";
+  background-image: url("vraivraifond.jpg");
+	background-size: no-repeat;
+	background-size: 100% auto;
+	margin: 40px;
+}  
+
+h4 { 
+	text-align: center;
+	font-size: 150%;
+	color: blue;
+}
+	
+	
+h5 {
+	
+	text-align: center;
+	font-size: 120%;
+	color: pink;
+}
+div {
+  text-align: center
+}
+
+p a {
+	color: white;
+}
+
+
+video {
+	margin-top: 10px;
+	height: auto;
+	width: 30%;
+}
+
+
+.description{
+	margin-right: 40%;
+	text-align: justify;
+	font-size: 20px;
+}
+
+.boutonmenuprincipal {
+background-color: #8cdcc6;
+color: white;
+border: none;
+cursor: pointer;
+padding:10px;
+margin-top:20px;
+margin-left: 50px;
+font-size: 20px;
+}
+.boutonmenuprincipal:hover {
+background-color: #c120f2;
+}
+.dropdown {
+position: absolute;
+z-index: 99;
+display: inline-block;
+}
+.dropdown-child {
+display: none;
+background-color: #27d5af;
+min-width: 50px;
+}
+
+.dropdown-child :hover {
+text-decoration: underline;
+}
+
+
+.dropdown-child a {
+color: white;
+padding: 20px;
+text-decoration: none;
+display: block;
+}
+.dropdown:hover .dropdown-child {
+display: block;
+}
